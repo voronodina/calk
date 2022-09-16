@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.calkylator{
+    background-color: white;
+    border: 3px solid brown;
+    height: 700px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    font-family: fantasy ;
+    color: darkgoldenrod;
+   
+}
+.dis{
+    height: 120px;
+    display: grid;
+    justify-items: end;
+   border: 3px solid blue;
+   border-radius: 20px;
+   background-color: aqua;
+   box-shadow: 0 40px 50px rgba(8, 243, 203, 0.25);
+}
+.dis:hover{
+    filter: brightness(200%);
+}
+.dis p {
+    color: rgb(255, 0, 0);
+    font-size: 6rem;
+    margin: 0px;
+    height: 6rem;
+
+}
+.boton{
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+     "ac pm pr d"
+     "dev vis sim mn "
+     "chi pua cho min"
+     "tru dva odu pla "
+     "zero zero kr dor";
+     grid-gap: 10px;
+     justify-items: center;
+
+}
+.coo.zero{
+    grid-area: zero;
+        width: 100%;
+        border-radius: 21px;
+}
+
+.coo{ 
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.coo:hover{
+    filter: brightness(200%);
+}
+.coo:active{
+    color: rgb(81, 255, 0);
+    filter: brightness(80%);
+}
+.chrvona{
+    background-color: brown;
+}
+.fff{
+ background-color: black;
+}
